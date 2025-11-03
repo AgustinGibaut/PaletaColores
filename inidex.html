@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLORSITO</title>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="style/App.css">
+</head>
+<body>
+
+    <div id="loader">
+        <img src="assets/logo.png" alt="Logo" id="loader-img">
+        <audio id="loader-sound" src="assets/loader-sound.mp3" preload="auto"></audio>
+    </div>
+
+    <h1>Bienvenido a COLORSITO</h1>
+    <p>Selecciona una paleta de colores para comenzar:</p>
+    <input type="color" id="colorPicker" name="colorPicker" value="#ff0000">
+    <button onclick="colores()">ELEGIR</button> 
+
+<div id="colorDisplay"></div>
+
+
+    <script src="js/App.js"></script>
+</body>
+</html>
